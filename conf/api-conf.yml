@@ -1,7 +1,7 @@
 version: 1.0.0
 host: 0.0.0.0
-port: 9090
-url_prefix: "/api-dev"
+port: 9091
+url_prefix: /api-dev
 log:
   level_values:
     CRITICAL: 50
@@ -10,8 +10,8 @@ log:
     INFO: 20
     DEBUG: 10
     commentaire: Valeurs utilisables pour le level
-  level: INFO
-  dir: "./logs"
+  level: DEBUG
+  dir: './'
   filename: api-dev.log
   max_filesize: 50000000
   max_files: 5

@@ -2,12 +2,12 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # Logger de l'application
-logger = logging.getLogger('api-generique')
-
+logger = logging.getLogger('api-dev')
+logger.compteur = 0
 
 # Configuration du logger
-def configure(p_level, p_dir=None, p_filename=None, p_max_filesize=100000, p_max_files=1, p_prefixe=None):
-
+def configure(p_level,p_dir=None,p_filename=None,p_max_filesize=100000,p_max_files=1,p_prefixe=None):
+    logger = logging.getLogger('api-dev')
     # default value
     logger.setLevel(logging.DEBUG)
 
