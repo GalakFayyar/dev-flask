@@ -1,0 +1,5 @@
+Flask>=0.12.2
+Flask-Cors>=3.0.3
+logger==1.4
+requests==2.5.3
+PyYAML>=3.12
