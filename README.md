@@ -3,9 +3,9 @@ Python Flask API Project
 Basic architecture for Flask Projects
 
 # Requirements
-Python > 3.4
-Pew
-Pip
+- Python > 3.4
+- Pew
+- Pip
 
 # Install notes
 Get the project locally :
